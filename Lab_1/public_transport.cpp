@@ -12,11 +12,19 @@ void public_transport::set_time(unsigned int time_road){
 }
 
 void public_transport::set_name_start(char *start_name){
-    name_start = start_name;
+    if (start_name != NULL){
+    delete [] name_start;
+    name_start = new char[strlen(start_name)];
+    }
+    strcpy(name_start, start_name);
 }
 
 void public_transport::set_name_end(char *end_name){
-    name_end = end_name;
+    if (end_name != NULL){
+        delete [] name_end;
+        name_end = new char[strlen(end_name)];
+    }
+    strcpy(name_end, end_name);
 }
 
 void public_transport::print(){

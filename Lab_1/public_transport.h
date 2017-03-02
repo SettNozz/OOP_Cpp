@@ -13,9 +13,9 @@ private:
     char *name_end; //name of station(start, end)
 public:     //constructor of class
     public_transport(unsigned int num, unsigned int tim, char *name_start_st, char *name_end_st):number(num), time(tim), name_start(name_start_st), name_end(name_end_st){
-        name_start = new char[20];
+        name_start = new char[strlen(name_start_st)];
         strcpy(name_start, name_start_st);
-        name_end = new char[20];
+        name_end = new char[strlen(name_end_st)];
         strcpy(name_end, name_end_st);
     }
     ~public_transport(){   //destructor of class
