@@ -1,5 +1,5 @@
 #include <iostream>
-#include "public_transport.h"
+#include "PC.h"
 
 int main(){
     public_transport Taxi(1, 2, "Valera", "Gaga");

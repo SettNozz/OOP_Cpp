@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Lab_1.dir/main.cpp.o CMakeFiles/Lab_1.dir/PC.cpp.o CMakeFiles/Lab_1.dir/Array_objects.cpp.o  -o Lab_1 

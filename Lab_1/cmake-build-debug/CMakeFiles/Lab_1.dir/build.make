@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/settnozz/clion-2016.3.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/settnozz/clion-2016.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/settnozz/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/settnozz/clion-2016.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/settnozz/CLionProjects/Lab_1
+CMAKE_SOURCE_DIR = /home/settnozz/CLionProjects/OOP_Cpp/Lab_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/settnozz/CLionProjects/Lab_1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lab_1.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Lab_1.dir/flags.make
 
 CMakeFiles/Lab_1.dir/main.cpp.o: CMakeFiles/Lab_1.dir/flags.make
 CMakeFiles/Lab_1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/settnozz/CLionProjects/Lab_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_1.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_1.dir/main.cpp.o -c /home/settnozz/CLionProjects/Lab_1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/settnozz/CLionProjects/OOP_Cpp/Lab_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_1.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_1.dir/main.cpp.o -c /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/main.cpp
 
 CMakeFiles/Lab_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_1.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/settnozz/CLionProjects/Lab_1/main.cpp > CMakeFiles/Lab_1.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/main.cpp > CMakeFiles/Lab_1.dir/main.cpp.i
 
 CMakeFiles/Lab_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_1.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/settnozz/CLionProjects/Lab_1/main.cpp -o CMakeFiles/Lab_1.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/main.cpp -o CMakeFiles/Lab_1.dir/main.cpp.s
 
 CMakeFiles/Lab_1.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Lab_1.dir/main.cpp.o.provides.build: CMakeFiles/Lab_1.dir/main.cpp.o
 
 CMakeFiles/Lab_1.dir/public_transport.cpp.o: CMakeFiles/Lab_1.dir/flags.make
 CMakeFiles/Lab_1.dir/public_transport.cpp.o: ../public_transport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/settnozz/CLionProjects/Lab_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab_1.dir/public_transport.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_1.dir/public_transport.cpp.o -c /home/settnozz/CLionProjects/Lab_1/public_transport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/settnozz/CLionProjects/OOP_Cpp/Lab_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab_1.dir/public_transport.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_1.dir/public_transport.cpp.o -c /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/public_transport.cpp
 
 CMakeFiles/Lab_1.dir/public_transport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_1.dir/public_transport.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/settnozz/CLionProjects/Lab_1/public_transport.cpp > CMakeFiles/Lab_1.dir/public_transport.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/public_transport.cpp > CMakeFiles/Lab_1.dir/public_transport.cpp.i
 
 CMakeFiles/Lab_1.dir/public_transport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_1.dir/public_transport.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/settnozz/CLionProjects/Lab_1/public_transport.cpp -o CMakeFiles/Lab_1.dir/public_transport.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/public_transport.cpp -o CMakeFiles/Lab_1.dir/public_transport.cpp.s
 
 CMakeFiles/Lab_1.dir/public_transport.cpp.o.requires:
 
@@ -117,7 +117,7 @@ Lab_1: CMakeFiles/Lab_1.dir/main.cpp.o
 Lab_1: CMakeFiles/Lab_1.dir/public_transport.cpp.o
 Lab_1: CMakeFiles/Lab_1.dir/build.make
 Lab_1: CMakeFiles/Lab_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/settnozz/CLionProjects/Lab_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lab_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/settnozz/CLionProjects/OOP_Cpp/Lab_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lab_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/Lab_1.dir/clean:
 .PHONY : CMakeFiles/Lab_1.dir/clean
 
 CMakeFiles/Lab_1.dir/depend:
-	cd /home/settnozz/CLionProjects/Lab_1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/settnozz/CLionProjects/Lab_1 /home/settnozz/CLionProjects/Lab_1 /home/settnozz/CLionProjects/Lab_1/cmake-build-debug /home/settnozz/CLionProjects/Lab_1/cmake-build-debug /home/settnozz/CLionProjects/Lab_1/cmake-build-debug/CMakeFiles/Lab_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/settnozz/CLionProjects/OOP_Cpp/Lab_1 /home/settnozz/CLionProjects/OOP_Cpp/Lab_1 /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/cmake-build-debug /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/cmake-build-debug /home/settnozz/CLionProjects/OOP_Cpp/Lab_1/cmake-build-debug/CMakeFiles/Lab_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Lab_1.dir/depend
 

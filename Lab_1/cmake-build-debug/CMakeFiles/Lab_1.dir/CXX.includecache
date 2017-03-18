@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/settnozz/CLionProjects/Lab_1/main.cpp
+/home/settnozz/CLionProjects/OOP_Cpp/Lab_1/main.cpp
 iostream
 -
 public_transport.h
-/home/settnozz/CLionProjects/Lab_1/public_transport.h
+/home/settnozz/CLionProjects/OOP_Cpp/Lab_1/public_transport.h
 
-/home/settnozz/CLionProjects/Lab_1/public_transport.cpp
+/home/settnozz/CLionProjects/OOP_Cpp/Lab_1/public_transport.cpp
 iostream
 -
 public_transport.h
-/home/settnozz/CLionProjects/Lab_1/public_transport.h
+/home/settnozz/CLionProjects/OOP_Cpp/Lab_1/public_transport.h
 
-/home/settnozz/CLionProjects/Lab_1/public_transport.h
+/home/settnozz/CLionProjects/OOP_Cpp/Lab_1/public_transport.h
 string.h
-/home/settnozz/CLionProjects/Lab_1/string.h
+/home/settnozz/CLionProjects/OOP_Cpp/Lab_1/string.h
 
