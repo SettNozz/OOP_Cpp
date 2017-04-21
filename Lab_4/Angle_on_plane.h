@@ -12,8 +12,8 @@ public:
     Angle_on_plane(int, double);
     ~Angle_on_plane();
     void print_value_degree();
-    void degree_to_radians();
-    void from_0_to_360();
+    float degree_to_radians();
+    float from_0_to_360();
     Angle_on_plane operator +(Angle_on_plane degr);
     Angle_on_plane operator -(Angle_on_plane degr);
     bool operator ==(const Angle_on_plane &) const;

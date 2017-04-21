@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include "Angle_on_plane.h"
-
+#define PI 3.14159567
 
 Angle_on_plane::Angle_on_plane(){
 
@@ -15,16 +15,23 @@ Angle_on_plane::Angle_on_plane(int degr, double min){
     minutes = min;
 }
 
+Angle_on_plane::~Angle_on_plane(){
+
+}
+
 void Angle_on_plane::print_value_degree() {
     std::cout << "Degrees: " << degrees << std::endl;
 }
 
-void Angle_on_plane::degree_to_radians() {
-
+float Angle_on_plane::degree_to_radians() {
+    return (PI * degrees)/180;
 }
 
-void Angle_on_plane::from_0_to_360() {
-
+float Angle_on_plane::from_0_to_360() {
+    if (degrees > 360)
+        return degrees % 360;
+    else
+        return degrees;
 }
 
 bool Angle_on_plane::operator==(const Angle_on_plane & spam) const {
