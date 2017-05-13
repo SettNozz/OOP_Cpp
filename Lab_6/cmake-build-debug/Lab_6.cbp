@@ -84,12 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/settnozz/CLionProjects/OOP_Cpp/Lab_6/My_stack.cpp">
-			<Option target="Lab_6"/>
-		</Unit>
-		<Unit filename="/home/settnozz/CLionProjects/OOP_Cpp/Lab_6/My_stack.h">
-			<Option target="Lab_6"/>
-		</Unit>
 		<Unit filename="/home/settnozz/CLionProjects/OOP_Cpp/Lab_6/main.cpp">
 			<Option target="Lab_6"/>
 		</Unit>

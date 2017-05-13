@@ -123,33 +123,6 @@ Lab_6/fast:
 	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/build
 .PHONY : Lab_6/fast
 
-My_stack.o: My_stack.cpp.o
-
-.PHONY : My_stack.o
-
-# target to build an object file
-My_stack.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/My_stack.cpp.o
-.PHONY : My_stack.cpp.o
-
-My_stack.i: My_stack.cpp.i
-
-.PHONY : My_stack.i
-
-# target to preprocess a source file
-My_stack.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/My_stack.cpp.i
-.PHONY : My_stack.cpp.i
-
-My_stack.s: My_stack.cpp.s
-
-.PHONY : My_stack.s
-
-# target to generate assembly for a file
-My_stack.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/My_stack.cpp.s
-.PHONY : My_stack.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,9 +159,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Lab_6"
-	@echo "... My_stack.o"
-	@echo "... My_stack.i"
-	@echo "... My_stack.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
