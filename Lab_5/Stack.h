@@ -26,8 +26,8 @@ private:
             pnext_ = NULL;
         }
     };
-
     stacknode* ptop_;
+    int len = 0;
 };
 
 
