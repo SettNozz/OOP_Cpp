@@ -13,7 +13,7 @@ private:
     string video_card;
 public:
     Personal_comp();
-    Personal_comp(const string, const int, const string, const string);
+    //Personal_comp(const string, const int, const string, const string);
     ~Personal_comp();
     void set_video_card(string);
     void show() const;

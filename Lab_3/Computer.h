@@ -13,12 +13,13 @@ using namespace std;
 
 class Computer {
 protected:
-    string mother_plate;
+    //string mother_plate;
     int size_ozu;
     string type_comp;
 public:
+    string mother_plate;
     Computer();
-    Computer(const string, const int, const string);
+    //Computer(const string, const int, const string);
     virtual ~Computer();
     virtual void set_mother_plate(string);
     virtual void set_size_ozu(int);

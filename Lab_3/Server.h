@@ -13,7 +13,7 @@ private:
     int count_processors;
     int count_hard_drive;
 public:
-    Server(const string, const int, const string, const int, const int);
+    //Server(const string, const int, const string, const int, const int);
     Server();
     ~Server();
     void set_count_processors(int);

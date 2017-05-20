@@ -6,24 +6,24 @@
 #include "Computer.h"
 
 
-Computer::Computer(const string mp, const int ozu, const string tc):mother_plate(mp), size_ozu(ozu), type_comp(tc) {
+//Computer::Computer(const string mp, const int ozu, const string tc):mother_plate(mp), size_ozu(ozu), type_comp(tc) {
 
-}
+//}
 
 Computer::Computer(){}
 
 Computer::~Computer() {}
 
 void Computer::set_mother_plate(string mother_pl) {
-    mother_pl = mother_plate;
+    mother_plate = mother_pl;
 }
 
 void Computer::set_size_ozu(int ozu_size) {
-    ozu_size = size_ozu;
+    size_ozu = ozu_size;
 }
 
 void Computer::set_type_comp(string type_computer) {
-    type_computer = type_comp;
+    type_comp = type_computer;
 }
 
 void Computer::show() const {
