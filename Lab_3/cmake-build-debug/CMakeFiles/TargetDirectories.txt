@@ -1,3 +1,0 @@
-/home/settnozz/CLionProjects/OOP_Cpp/Lab_3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/settnozz/CLionProjects/OOP_Cpp/Lab_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/settnozz/CLionProjects/OOP_Cpp/Lab_3/cmake-build-debug/CMakeFiles/Lab_3.dir

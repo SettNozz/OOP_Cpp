@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/Lab_5.dir/main.cpp.o CMakeFiles/Lab_5.dir/Stack.cpp.o  -o Lab_5 

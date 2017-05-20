@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/Lab_3.dir/main.cpp.o CMakeFiles/Lab_3.dir/Computer.cpp.o CMakeFiles/Lab_3.dir/Server.cpp.o CMakeFiles/Lab_3.dir/Personal_comp.cpp.o  -o Lab_3 
